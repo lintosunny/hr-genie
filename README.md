@@ -1,70 +1,34 @@
+# HR AI Agent
+HR AI Agent is an intelligent, MCP-powered HR assistant designed to automate and streamline core HR operations.  
+It integrates tools, knowledge bases, and workflows to manage employees, leave requests, meetings, ticketing, and onboarding — all accessible via a conversational AI interface.  
+
+Built on **FastMCP**, the agent seamlessly integrates with Claude Desktop and other MCP-compatible clients. With support for HRMS operations, emails, and workflow automation, it reduces manual overhead and enhances productivity for HR teams.  
+
+▶️ **[Watch the Project Demo on YouTube](https://youtu.be/oGgQIMMyKgU)**
 
 
-## Installation
+## Use Cases
+- Automating HR operations for small and medium-sized companies  
+- Streamlined employee onboarding & offboarding  
+- Self-service HR queries for employees  
+- AI-driven workflows to boost HR team productivity  
+
+## Features  
+
+| Module              | Features                                                                 |
+|----------------------|--------------------------------------------------------------------------|
+| **Employee Management** | • Add employees • Manage employee records • Retrieve employee details |
+| **Leave Management**    | • Apply leave • Track leave requests • Check leave balance & history |
+| **Meeting Management**  | • Schedule meetings • Fetch meeting details • Cancel meetings |
+| **Ticketing System**    | • Raise support tickets • Update tickets • Track ticket status |
+| **Email Integration**   | • Send HR emails (via Gmail SMTP) • Automated onboarding notifications |
+| **Onboarding Workflow** | • Add employees to HRMS • Automate onboarding • Create IT/infra tickets • Schedule intro meetings |
 
 
-3. **Clone the repository**:
+## Demo
 
-```
-git clone 
-```
-
-2. **Create and activate a virtual environment (optional but recommended)**:
-
-```
-conda create -n env python=3.10 -y
-```
-
-```
-conda activate env
-```
-
-3. **add depencencies**
-```
-pip install .
-```
-
-1. **Install claude desktop**:
-
-Download and install from this [link](https://claude.ai/download)
-
-2. **Google App password verification**:
-myaccount.google.com/security -> 2 step verification -> enable it
-
-myaccount.google.com/apppasswords -> enter app name -> create -> copy paste the generated password
-
-
-
-
-
-5. **Add Claude config file**
-open cluade desktop > menu > file > settings... > Developer > Edit config > claude_desktop_config.json > add the following file
-```
-{
-  "mcpServers": {
-    "hr-assist": {
-      "command": "C:\\Users\\linto\\anaconda3\\Scripts\\uv",  # add location of uv.exe in your system
-      "args": [
-        "--directory",
-        "C:\\Users\\linto\\code\\hr-ai-agent",  # location of project file. where your code is
-        "run",
-        "server.py"
-      ],
-      "env": {
-        "CB_EMAIL": <enter here>,
-        "CB_EMAIL_PWD": <enter here>
-      }
-    }
-  }
-}
-```
-
-4. **Run**
-
-claude -> + -> add from hr assistant -> run prompt -> give details
-Note: if changes are not reflecting. then close claude desktop app and kill the task in task manager and reopen.
-
-
+## Technical Architecture
+![hr-ai-agent-Technical-Architecture](assets/hr-ai-agent.png)
 
 ## Installation Guide
 Follow these steps to set up and run the project on your system

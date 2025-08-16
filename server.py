@@ -273,7 +273,7 @@ def onboard_new_employee(employee_name: str, manager_name: str, email: str) -> s
     onboard new employee {employee_name} under manager {manager_name} with email {email}
     steps to follow:
         1. Add employee to the HRMS system
-        2. send a welcome email to employee with the new credentials (employee_name@curefit.com, employee_password)
+        2. send a welcome email to employee on the given mail id of employee with the new credentials (employee_name@curefit.com, employee_password)
         3. notify the manager {manager_name} about the new employee
         4. Raise tickets for a new laptop, id card, and other necessary equipment.
         5. Schedule an introductory meeting between the employee and the manager.

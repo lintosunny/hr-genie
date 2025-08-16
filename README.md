@@ -6,15 +6,6 @@ Built on **FastMCP**, the agent seamlessly integrates with Claude Desktop and ot
 
 ▶️ **[Watch the Project Demo on YouTube](https://youtu.be/oGgQIMMyKgU)**
 
-
-## Use Cases
-- Automating HR operations for small and medium-sized companies  
-- Streamlined employee onboarding & offboarding  
-- Self-service HR queries for employees  
-- AI-driven workflows to boost HR team productivity  
-
-## Features  
-
 | Module              | Features                                                                 |
 |----------------------|--------------------------------------------------------------------------|
 | **Employee Management** | • Add employees • Manage employee records • Retrieve employee details |
@@ -25,7 +16,11 @@ Built on **FastMCP**, the agent seamlessly integrates with Claude Desktop and ot
 | **Onboarding Workflow** | • Add employees to HRMS • Automate onboarding • Create IT/infra tickets • Schedule intro meetings |
 
 
-## Demo
+## Use Cases
+- Automating HR operations for small and medium-sized companies  
+- Streamlined employee onboarding & offboarding  
+- Self-service HR queries for employees  
+- AI-driven workflows to boost HR team productivity  
 
 ## Technical Architecture
 ![hr-ai-agent-Technical-Architecture](assets/hr-ai-agent.png)

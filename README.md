@@ -13,7 +13,7 @@ Built on **FastMCP**, the agent seamlessly integrates with Claude Desktop and ot
 | **Meeting Management**  | • Schedule meetings • Fetch meeting details • Cancel meetings |
 | **Ticketing System**    | • Raise support tickets • Update tickets • Track ticket status |
 | **Email Integration**   | • Send HR emails (via Gmail SMTP) • Automated onboarding notifications |
-| **Onboarding Workflow** | • Add employees to HRMS • Automate onboarding • Create IT/infra tickets • Schedule intro meetings |
+| **Onboarding Workflow** | • Add employees to HRMS • Automate onboarding |
 
 
 ## Use Cases

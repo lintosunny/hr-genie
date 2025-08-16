@@ -65,10 +65,10 @@ Locate ```claude_desktop_config.json``` and add the following:
 {
   "mcpServers": {
     "hr-assist": {
-      "command": "C:\\Users\\linto\\.local\\bin\\uv",  // replace uv.exe location specific to your system
+      "command": "C:\\Users\\linto\\.local\\bin\\uv",  // Replace with your uv.exe system path
       "args": [
         "--directory",
-        "C:\\Users\\linto\\code\\hr-ai-agent",  // replace project folder location specific to your system
+        "C:\\Users\\linto\\code\\hr-ai-agent",  // Replace with your project folder path
         "server.py"
       ],
       "env": {

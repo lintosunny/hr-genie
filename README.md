@@ -28,22 +28,27 @@ Built on **FastMCP**, the agent seamlessly integrates with Claude Desktop and ot
 ## Installation Guide
 Follow these steps to set up and run the project on your system
 
+### **0. Prerequisites**
+Install ```uv```
+```
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  # Windows
+curl -LsSf https://astral.sh/uv/install.sh | sh                                     # Linux/Mac
+```
+
 ### **1. Clone the Repository**
 ```
 git clone https://github.com/lintosunny/hr-ai-agent.git
 ```
 
-### **2. Create and Activate a Virtual Environment (Recommended)**
-Using Conda:
+### **2. Create a virtual environment & install dependencies**
 ```
-conda create -n env python=3.10 -y
-conda activate env
+uv sync
 ```
 
-### **3. Install Dependencies**
-Install project dependencies with ```pyproject.toml```
+### **3. Activate the Virtual Environment**
 ```
-pip install .
+source .venv/bin/activate  # Linux/Mac
+.venv\Scripts\activate     # Windows
 ```
 
 ### **4. Install Claude Desktop**

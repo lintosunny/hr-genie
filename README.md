@@ -28,7 +28,7 @@ Built on **FastMCP**, the agent seamlessly integrates with Claude Desktop and ot
 ## Installation Guide
 Follow these steps to set up and run the project on your system
 
-### **0. Prerequisites**
+### **Prerequisites**
 Install ```uv```
 ```
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  # Windows

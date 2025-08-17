@@ -60,7 +60,14 @@ Download and install Claude Desktop from *[here](https://claude.ai/download)*
 3. Create an App Password at *[Google App Passwords](myaccount.google.com/apppasswords)*
 4. Enter an app name → click Create → copy and save the generated password
 
-### **6. Add Claude Config File**
+### **6. Set up Environment Variables**
+Create a `.env` file in the project root and add the following:
+```
+CB_EMAIL=<your email>
+CB_EMAIL_PWD=<your password>
+```
+
+### **7. Add Claude Config File**
 
 Open Claude Desktop and navigate: *Menu → File → Settings → Developer → Edit config*
 
@@ -85,7 +92,7 @@ Locate ```claude_desktop_config.json``` and add the following:
 }
 ```
 
-### **7. Run the AI agent**
+### **8. Run the AI agent**
 1. Open Claude Desktop
 2. Click + → select Add from hr assistant
 3. Run a prompt and provide required details

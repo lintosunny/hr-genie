@@ -1,4 +1,4 @@
-# HR AI Agent
+# HRGenie: Your AI Wish for HR Tasks, Granted
 HR AI Agent is an intelligent, MCP-powered HR assistant designed to automate and streamline core HR operations.  
 It integrates tools, knowledge bases, and workflows to manage employees, leave requests, meetings, ticketing, and onboarding — all accessible via a conversational AI interface.  
 
